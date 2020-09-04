@@ -109,7 +109,7 @@ public class home implements ActionListener{
          // this is when the user click cancel button
         else if (e.getSource() == cancel)
         {
-           
+           home h = new home();  
         }
     }    
     private static  List<CsvInfo> getCsvDetails(String file){
